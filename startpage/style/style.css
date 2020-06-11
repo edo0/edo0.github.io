@@ -31,7 +31,6 @@ input {
     border-radius: 8px;
     outline: none;
     padding: 7px 14px;
-    font-size: 18;
     grid-column: 1 / -1;
     margin: -5px 0px 30px 0px;;
 }
@@ -43,7 +42,7 @@ body {
 }
 
 .everything {
-	display: flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -64,28 +63,6 @@ body {
 
 .box {
 	width: 750px;
-}
-
-@media only screen and (max-width: 980px) {
-  .box {
-    height: auto;
-  }
-  #clock {
-    margin-top: 1em;
-  }
- 
- input {  
- width: 75%
- }
- 
-  .box {
-    flex-direction: column;
-    width: 60%;
-  }
-  .box {
-    width: auto;
-    margin: 1em 0em;
-  }
 }
 
 ul {
@@ -109,10 +86,101 @@ a:hover {
 }
 
 .time {
-    font-family: var(--font2);
-    font-size: 5.5rem;
-    margin: 50px 0px 50px 0px;
-    color: var(--linkcolor);
+	font-family: var(--font2);
+	font-size: 5.5rem;
+	margin: 50px 0px 50px 0px;
+	color: var(--linkcolor);
 	text-shadow: -5px 5px 0px #13707e, -10px 10px 0px #167f8f, -15px 15px 0px #188ea0;
 }
 
+
+@media only screen and (max-width: 980px) {
+input {
+	height: inherit;
+	width: 900px;
+	background: #262626;
+	color: var(--linkcolor);
+	font: 22.5px "VCR_OSD_MONO_1.001";
+	font-weight: bold;
+	line-height: 2.7em;
+	box-shadow: 1.5px 1.5px 4.5px #000000;
+	border: none;
+	text-align: center;
+	border-radius: 12px;
+	outline: none;
+	padding: 10.5px 21px;
+	grid-column: 1 / -1;
+	margin: -7.5px 0px 45px 0px;;
+}
+
+body {
+	background-image: url('../background/1579515150563.jpg');
+	background-color: #262626;
+	background-size: cover;
+}
+
+.everything {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.link {
+	display: inline-block;
+	margin: 1%;
+	height: 277.5px;
+	width: 210px;
+	text-align: left;
+	padding-left: 3%;
+	background-color: var(--bgcolor);
+	border-radius: 12px;
+	box-shadow: 3px 3px 12px #000000;
+}
+
+.box {
+	width: 1075px;
+}
+
+.time {
+	font-family: var(--font2);
+	font-size: 8.25rem;
+	margin: 75px 0px 75px 0px;
+	color: var(--linkcolor);
+	text-shadow: -7.5px 7.5px 0px #13707e, -15px 15px 0px #167f8f, -22.5px 22.5px 0px #188ea0;
+}
+
+.box {
+	height: auto;
+  }
+
+#clock {
+	margin-top: 1em;
+}
+ 
+input {  
+	width: 75%
+ }
+
+.box {
+	flex-direction: column;
+	width: 60%;
+  }
+
+.box {
+	width: auto;
+	margin: 1.5em 0em;
+}
+
+a {
+	display: block;
+	line-height: 2.4em;
+	font-family: var(--font);
+	color: var(--linkcolor);
+	font-size: 1.5rem;
+	text-decoration: none;
+	outline: none;
+	transition: 0s;
+}
+}
