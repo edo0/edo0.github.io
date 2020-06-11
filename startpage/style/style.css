@@ -94,7 +94,7 @@ a:hover {
 }
 
 
-@media (pointer:none), (pointer:coarse) {
+@media (max-resolution: 1dppx) {
 aside {
    width:200%;
    box-sizing: border-box;
