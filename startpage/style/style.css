@@ -66,7 +66,11 @@ body {
 	width: 750px;
 }
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 980px) {
+.zoom
+{
+    zoom: 150%;
+}
   .box {
     height: auto;
   }
