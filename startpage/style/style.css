@@ -94,8 +94,7 @@ a:hover {
 }
 
 
-/*@media only screen and (max-width: 980px) {*/
-@media (pointer:coarse) {
+@media only screen and (max-width: 980px) {
 aside {
    width:400%;
    box-sizing: border-box;
