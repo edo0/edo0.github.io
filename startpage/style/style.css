@@ -93,12 +93,12 @@ a:hover {
 	text-shadow: -5px 5px 0px #13707e, -10px 10px 0px #167f8f, -15px 15px 0px #188ea0;
 }
 
-
 @media only screen and (max-width: 980px) {
 aside {
    width:200%;
    box-sizing: border-box;
 }
+
 div {
     position:relative;
     box-sizing: border-box;
@@ -106,7 +106,7 @@ div {
     overflow-x:hidden;
     min-height: 120px;
 }
-	
+
 input {
 	height: inherit;
 	width: 900px;
