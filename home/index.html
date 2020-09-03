@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>home</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="files/w3.css" />
+	<link rel="stylesheet" href="files/font.css"  />
+	<style>
+		body {
+			font-family: 'Gaegu', cursive;
+			font-size: 18px;
+			background: #fff;
+			color: #111;
+			text-shadow: 1px 1px 2px #888;
+		}
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			font-family: 'Gaegu', cursive;
+			color: #111;
+			font-weight: 700;
+			padding: 6px;
+			margin: 0;
+		}
+		.w3-input {
+			color: #111;
+			background: none;
+			border-bottom: 4px solid #ddd;
+			text-shadow: 1px 1px 2px #888;
+			transition: border 0.3s ease;
+		}
+		textarea:focus,
+		input:focus {
+			outline: 0;
+			border: 0;
+			border-bottom: 4px solid #4d79ff;
+		}
+		::placeholder {
+			font-family: 'Gaegu', cursive;
+			color: #999;
+			text-shadow: 1px 1px 2px #888;
+		}		
+		.w3-ul li {
+			line-height: 20px;
+			padding: 0;
+			border: 0;
+		}
+		a,
+		a > span {
+			position: relative;
+			color: #666;
+			text-decoration: none;
+			line-height: 22px;
+			transition: color .3s ease-in-out;
+		}
+		a:hover {
+			color: #222;
+		}
+		a:before,
+		a:after,
+		a > span:before,
+		a > span:after {
+			content: '';
+			position: absolute;
+			transition: transform .3s ease-in-out;
+		}
+		.effect {
+			padding-top: 0;
+		}
+		.effect:before {
+			left: 0;
+			bottom: -3px;
+			width: 100%;
+			height: 2px;
+			background: #4d79ff;
+			transform: scaleX(0);
+		}
+		.effect:hover:before {
+			transform: scaleX(0.85);
+		}
+		img {
+			display: block;
+			margin-bottom: -25px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="w3-container w3-display-middle w3-centered" style="width: 22em; margin-top: -4em;">
+		<img src="img.png" />
+		<form method="get" action="https://www.google.com/search">
+			<input class="w3-input w3-center w3-section" type="text" name="q" placeholder="Looking for something?" />
+		</form>
+		<div class="w3-cell-row">
+			<div class="w3-container w3-cell w3-mobile">
+				<ul class="w3-ul w3-center">
+					<li><a class="effect" href="http://my.nethspot.com/wings/login/sms?digest=8a4f7fac5ddadb28a1c9085bd0474f5c&uuid=7e3ffbd6-0c4f-45cd-8419-c14fc616fe07&sessionid=157358773300000043&uamip=192.168.180.1&uamport=3990&user=65651&code=055028&num=%2B393467385684">wifi</a></li>
+					<li><a class="effect" href="https://www.google.co.uk/">google</a></li>
+					<li><a class="effect" href="https://www.google.co.uk/imghp?hl=en">imgs</a></li>
+					<li><a class="effect" href="https://drive.google.com/drive/my-drive">drive</a></li>
+					<li><a class="effect" href="https://youtube.com">yt</a></li>
+					
+				</ul>
+			</div>
+			<div class="w3-container w3-cell w3-mobile">
+				<ul class="w3-ul w3-center">
+					<li><a class="effect" href="https://en.wikipedia.org/wiki/Main_Page">wiki</a></li>
+					<li><a class="effect" href="https://www.reddit.com/">reddit</a></li>
+					<li><a class="effect" href="https://www.sciencedirect.com/">scncdrct</a></li>
+					<li><a class="effect" href="https://sci-hub.tw/">sci-hub</a></li>
+					<li><a class="effect" href="https://libgen.is/">libgen</a></li>
+				</ul>
+				
+			</div>
+			<div class="w3-container w3-cell w3-mobile">
+				<ul class="w3-ul w3-center">
+					<li><a class="effect" href="https://justseed.zapto.org/">jstsd</a></li>
+					<li><a class="effect" href="https://avistaz.to/">avistz</a></li>
+					<li><a class="effect" href="https://filelist.io/">filelist</a></li>
+					<li><a class="effect" href="https://rarbg.to/torrents.php">rarbg</a></li>
+					<li><a class="effect" href="https://thepiratebay.org/">tpb</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
